@@ -12,13 +12,11 @@ function App()
       
      
       <Router>
-         
       
           <Route path="/" exact component={Home} />
           <Route path="/About" component={About} />
           <Route path="/Profile"  component={Profile} />
         
-
       </Router>
       
     );

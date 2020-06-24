@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import  {Fragment} from 'react';
 import Navbar from '../Component/Navbar.js';
 import Footer from '../Component/Footer.js';
 import Body from '../Component/Body.js';
@@ -8,13 +9,13 @@ const Home = () => {
     
         return (
             
-            <div>
+        <Fragment>
               <Navbar/>
                 <Body/>
                 <Footer />
-            </div>
+         </Fragment>
           
-        );
+        )
   
 
 }

@@ -1,21 +1,21 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import Menu from './Menu';
 
-export default (Navbar) => {
+export default () => {
   return (
 
-    <div>
+    <Fragment>
       <Menu />
-
-      <div style={{ top: "-150px", zIndex: "-1" }} id="slider2" class="carousel slide carousel-fade" >
-     
-     
+      <div id="slider2" class="carousel slide carousel-fade" data-ride="carousel" >
+      
       <div class="carousel-inner" role="listbox">
         <ol class="carousel-indicators">
           <li data-target="#slider2" data-slide-to="0" class="active"></li>
           <li data-target="#slider2" data-slide-to="1"></li>
           <li data-target="#slider2" data-slide-to="2"></li>
         </ol>
+
+        
 
           <div class="carousel-item active">
             <div class="view">
@@ -39,9 +39,13 @@ export default (Navbar) => {
               <div class="mask rgba-black-slight"></div>
             </div>
           </div>
-        
+        <div className="carousel-caption">
+        <h5>Our Product</h5>
+        <p>It's all about what you want</p>
+        <button className="btn btn-success btn-rounded ">Custom</button>
+        </div>
         </div>
       </div>
-    </div>
+      </Fragment>
   );
 }
