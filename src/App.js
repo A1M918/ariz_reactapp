@@ -1,21 +1,29 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router} from 'react-router-dom';
+import {Route} from 'react-router';
 import Home from './Pages/Home.js';
+import Profile from './Pages/Profile.js';
+import About from './Pages/About.js';
 
-class App extends Component {
-  render() {
+
+function App()
+  {
     return (
+      
+     
       <Router>
-
-        <div>
-          <Route exact path="/" component={Home} />
-        </div>
+         
+      
+          <Route path="/" exact component={Home} />
+          <Route path="/About" component={About} />
+          <Route path="/Profile"  component={Profile} />
+        
 
       </Router>
       
     );
   }
-}
+
 
 
 export default App;

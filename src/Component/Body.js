@@ -7,9 +7,9 @@ const Body = () => {
   return (
     <div>
 
-      <div >
-       <div className="container text-center text-md-center border-bottom border-dark md-5">
-       <h4 className="fab"><strong> Why Our Products Is The Best</strong></h4>
+<div className="container text-center text-md-center border-bottom border-dark my-4 pt-3">
+<div class="card text-center m-2 py-3">
+<h4 className="fab"><strong> Why Our Products Is The Best</strong></h4>
         <p>Almost every new client these days wants a mobile version of their website.</p>
           <div class="row">
             <div class='col-md-4'>
@@ -29,9 +29,11 @@ const Body = () => {
               </div>
           </div>
           </div>
-          <div className= "border-bottom border-dark ">
 
       </div>
+ 
+
+
       <div>
             <div className="container">
             <div className="container-fluid text-md-left mt-5" >
@@ -66,9 +68,9 @@ const Body = () => {
                           <h5>Name</h5>
                           <p>Some quick example text to build on the Name and make up the bulk of the card's content.</p>
            <ul class="list-inline py-2">
-          <li class="list-inline-item"><Link to="https://www.facebook.com"class="p-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></Link></li>
-            <li class="list-inline-item"><Link to="https://twitter.com" class="p-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></Link></li>
-            <li class="list-inline-item"><Link to="https://www.linkedin.com" class="p-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></Link></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com"  class="p-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.twitter.com" class="p-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com" class="p-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a></li>
           </ul>
                         </div>
                       </div>
@@ -85,9 +87,9 @@ const Body = () => {
                         <h5 >Name</h5>
                         <p>Some quick example text to build on the Name and make up the bulk of the card's content.</p>
            <ul class="list-inline py-2">
-            <li class="list-inline-item"><Link to="https://www.facebook.com" class="p-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></Link></li>
-            <li class="list-inline-item"><Link to="https://twitter.com" class="p-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></Link></li>
-            <li class="list-inline-item"><Link to="https://www.linkedin.com" class="p-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></Link></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com"  class="p-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.twitter.com" class="p-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com" class="p-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a></li>
           </ul>
                       </div>
 
@@ -99,12 +101,11 @@ const Body = () => {
                         <p >Some quick example text to build on the Name and make up the bulk of the card's content.</p>
       
            <ul class="list-inline py-2">
-            <li class="list-inline-item"><Link to="https:www.facebook.com" class="p-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></Link></li>
-            <li class="list-inline-item"><Link to="https:twitter.com" class="p-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></Link></li>
-            <li class="list-inline-item"><Link to="https:www.linkedin.com" class="p-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></Link></li>
+           <li class="list-inline-item"><a href="https://www.facebook.com"  class="p-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.twitter.com" class="p-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com" class="p-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a></li>
           </ul>
-    ]
-                      </div>
+</div>
 </div>
 </div>
 </div>
@@ -174,11 +175,11 @@ const Body = () => {
                         </div>
                       </div>
                       <div class="card hoverable">
-                        <img class="card-img-top-circle-rounded hoverable" src="https://images.sweetauthoring.com/recipe/317377_977.jpg" height="200" alt="Body" />
+                        <img class="card-img-top-circle-rounded hoverable" src="https://images7.alphacoders.com/333/333634.jpg" height="200" alt="Body" />
                         <div class="card-body border-bottom border-dark"> <Link className=" btn-action share-toggle transparent ml-auto mr-4 float-right">
                           <div className="fas fa-share-alt"></div></Link>
                           <h5 class="card-title border-bottom border-light">Cake</h5> 
-                          <p>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                           <Link class="btn-outline-link" data-toggle="collapse" data-target="#dm3">Read details »</Link>
                   <div id="dm3" class="collapse">
                     <p>hi its me</p>
@@ -194,9 +195,7 @@ const Body = () => {
                 </div> 
                 </div>
               </div>
-              </div>
-        
-  );
+  );             
 }
 
 export default Body;

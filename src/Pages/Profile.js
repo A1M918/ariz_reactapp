@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import Navbar from '../Component/Navbar.js';
+import React from 'react';
+import Menu from '../Component/Menu';
 
-
-class Profile extends Component {
-    render() {
+const Profile = () => {
+    
         return (
 
             <div>
-              <Navbar/>
-               
+                <Menu/>
+                <center>
+           <h1>Its Profile</h1>
+               </center>
             </div>
         );
     }
 
-}
 export default Profile;
